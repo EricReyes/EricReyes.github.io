@@ -1,0 +1,207 @@
+#whiteboard {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border : 1px solid black;
+    color : black;
+    z-index: 1;
+}
+
+#whiteboard2 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border : 1px solid black;
+    color : black;
+    z-index: 0;
+}
+
+#toolbar {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color : rgba(255,125,0,0.5);
+    height : 60px;
+    width : 800px;
+    z-index: 2;
+}
+
+
+.colorButton {
+    border-radius : 50%;
+    width : 50px;
+    height : 50px;
+    position: absolute;
+}
+
+.sizeButton {
+    border-radius: 25%;
+    position: absolute;
+    width : 40px;
+    height : 50px;
+    text-align: center;
+}
+
+.actionButton {
+    border-radius: 10%;
+    position: absolute;
+    width : 100px;
+    height : 50px;
+    text-align: center;
+}
+
+#form {
+    position: relative;
+    left: 820px;
+    top: 500px;
+    width: 10px;
+}
+
+#white {
+    background-color : white;
+    top:0%;
+    left:0%;
+}
+
+#red {
+    background-color : red;
+    top:0%;
+    left:7%;
+}
+
+#yellow {
+    background-color : yellow;
+    top:0%;
+    left:14%;
+}
+
+#green {
+    background-color : green;
+    top:0%;
+    left:21%;
+}
+
+#blue {
+    background-color : blue;
+    top:0%;
+    left:28%;
+}
+
+#plus {
+    background-color : gray;
+    top : 0px;
+    left : 35%;
+}
+
+#minus {
+    background-color : gray;
+    top : 0px;
+    left : 42%;
+}
+
+#clear {
+    background-color : white;
+    top : 0px;
+    left : 49%;
+}
+
+#eraser {
+    background-color : white;
+    top : 0px;
+    left : 62%;
+}
+
+#send {
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    width: 100px;
+    height: 30px;
+}
+
+#reset {
+    position: absolute;
+    top: 0px;
+    left: 410px;
+    width: 100px;
+    height: 30px;
+}
+
+#textBox{
+    width: 300px;
+    height: 30px;
+}
+
+#chatBox {
+    position: absolute;
+    top: 350px;
+    left: 820px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+    
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 110%;
+    height: 140%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+#tituloNegro{
+    color: black;
+}
+
+.transbox {
+    margin: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid black;
+
+}
+.transbox h3 {
+    margin: 3%;
+    color: #000000;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration:underline;
+}
+
+#arregla{
+    padding-right: 110px;
+}
+p {
+	background: #F9F9F9;
+	border: 1px solid #E1E1E8;
+	margin: 10px 0;
+	padding: 8px;
+}
+.bs-example{
+	margin: 20px;
+}

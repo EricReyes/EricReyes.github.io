@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="jcanvas.min.js"></script>
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="estilosPrueba.css">
+    </head>
+    <body>
+        
+       
+            <div>
+                <canvas width = "800px" height = "600px" id = "whiteboard"></canvas>
+            </div>
+            <div>
+                <canvas width = "800px" height = "600px"  style = "background-color: black" id = "whiteboard2"></canvas>
+            </div>
+            <div id = "toolbar">
+                <button id = "white" class = "colorButton"></button>    
+                <button id = "red" class = "colorButton"></button>
+                <button id = "yellow" class = "colorButton"></button>
+                <button id = "green" class = "colorButton"></button>
+                <button id = "blue" class = "colorButton"></button>
+                <button id = "plus" class = "sizeButton"> + </button>
+                <button id = "minus" class = "sizeButton"> - </button>
+                <button id = "clear" class = "actionButton">Clear</button>
+                <button id = "eraser" class = "actionButton">Eraser</button>
+            </div>
+            <div class="booth">
+                <iframe src="http://www.twitch.tv/miguel_pd95/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe>
+            </div>
+            <div id = "chatBox" style="overflow-y:scroll;"></div>
+            <form id = "form">
+                <input type = "text" name = "name" id = "textBox" />
+                <button type = "button" id = "send"/>Send!</button>
+                <button type = "button" id = "reset"/>Reset</button>
+                <button id ="pregunta"   type="button">Question!</button>
+                <button id ="powerful"   style = "visibility:hidden" type="button">Give autorization </button>
+            </form>
+            <script type="text/javascript" src="pruebaCamara.js"></script>
+            <script type="text/javascript" src="server.js"></script>
+            <img src = "doubt.gif" style = "position:absolute/>
+    </body>
+</html>

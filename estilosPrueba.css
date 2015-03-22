@@ -1,0 +1,9 @@
+.booth{
+	position: absolute;
+	left: 820px;
+	top: 8px;
+	width: 450px;
+	background: #ccc;
+	border: 10px solid #ddd;
+	margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+    
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 110%;
+    height: 140%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+#tituloNegro{
+    color: black;
+}
+
+.transbox {
+    margin: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid black;
+
+}
+.transbox h3 {
+    margin: 3%;
+    color: #000000;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration:underline;
+}
+
+#arregla{
+    padding-right: 110px;
+}
